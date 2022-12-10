@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Preference category">
+        <Preference app:fragment="com.example.myapplication.perfence.FirstFragment" android:summary="阅读器和书架" android:title="阅读器和书架详细设置"/>
+        <ListPreference
+            android:key="myListPreference"
+            android:title="标题"
+            android:entries="@array/list_aentries"
+            android:entryValues="@array/list_entries_value"
+            android:dialogTitle="默认搜索引擎"
+            android:summary="默认搜索引擎"
+            app:title="Bing"
+            android:defaultValue="Bing">
+        </ListPreference>
+        <ListPreference
+            android:key="myListPreference"
+            android:title="标题"
+            android:entries="@array/list_entries"
+            android:entryValues="@array/list_entries_value"
+            android:dialogTitle="屏幕旋转"
+            android:summary="始终竖屏"
+            app:title="始终竖屏"
+            android:defaultValue="@array/list_entries_value2">
+        </ListPreference>
+        <SwitchPreference app:fragment="com.example.SyncFragment" android:key="switch_preference_6"  android:defaultValue="false" android:summary="自动填充" android:title="自动填充并填充密码信息"/>
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

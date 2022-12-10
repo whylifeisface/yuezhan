@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="阅读器设置" >
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_preference_1"
+            android:title="自动开启图片网页界面,会自动进入阅读模式" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_preference_2"
+            android:summary="开启章节显示"
+            android:title="开启后再阅读器底部会显示当前章节" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_preference_3"
+            app:summary="自动开启文字阅读模式"
+            android:title="开启后再文字网页界面,会自动进入阅读模式" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="书架设置">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_preference_4"
+            android:title="最近阅读的放到书架最前面" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

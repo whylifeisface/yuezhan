@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_aentries" >
+        <item>百度</item>
+        <item>bing</item>
+        <item>google</item>
+    </string-array>
+
+    <string-array name="list_entries_value" >
+        <item>百度</item>
+        <item>bing</item>
+        <item>google</item>
+    </string-array>
+    <string-array name="list_entries">
+        <item>始终竖屏</item>
+        <item>横屏</item>
+    </string-array>
+    <string-array name="list_entries_value2">
+        <item>始终竖屏</item>
+        <item>横屏</item>
+    </string-array>
+</resources>
+
+
